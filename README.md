@@ -5,4 +5,4 @@ Download or clone CreateUaList.php
 
 php -f /path_to_file/CreateUaList.php
 
-Or move to DocumentRoot server and run by browser
+Or put file in server folder for php files and then call it from web-browser (Like http://localhost/CreateUaList.php ).
