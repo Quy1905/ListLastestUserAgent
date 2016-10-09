@@ -1,4 +1,4 @@
-# Create List Random User Agent All OS Version in Firefox And Chrome (Random Lastest Version)
+# Create List Random User Agent All OS Version in Firefox And Chrome (Random Latest Version)
 
 # Usage
 Download or clone CreateUaList.php
