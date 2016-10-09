@@ -42,6 +42,7 @@ $_os = array_merge($windows_os, $linux_os, $mac_os);
 $style_chrome = 'Mozilla/5.0 ($os) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/$version Safari/537.36';
 $style_firefox = 'Mozilla/5.0 ($os) Gecko/20100101 Firefox/$version';
 
+
 for ( $i=0;$i<$limit_chrome;$i++ ){
 	$os = $_os[rand ( 0, count ($_os) - 1 ) ];
 	$version = rand ( $chrome_version['min'], $chrome_version['max'] ) . '.0.' . rand  (1000,4000) . '.' . rand (100, 400);
@@ -51,8 +52,9 @@ for ( $i=0;$i<$limit_chrome;$i++ ){
 }
 for ( $i=0;$i<$limit_firefox;$i++ ){
 	$os = $_os[rand ( 0, count ($_os) - 1 ) ];
-	$version = rand ( $firefox_version['min'], $firefox_version['max'] ) . rand (0,9);
+	$version = rand ( $firefox_version['min'], $firefox_version['max'] ) . '.' . rand (0,9);
 	$ua = str_replace('$os', $os, $style_firefox);
 	$ua = str_replace('$version', $version, $ua);
 	echo $ua . "\n";
 }
+
