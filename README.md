@@ -1,12 +1,7 @@
 # Create List Random User Agent All OS Version in Firefox And Chrome (Random Lastest Version)
 
-[![][travis img]][travis]
-[![][maven img]][maven]
-[![][license img]][license]
-
-# Download 
-Download or clone CreateUaList.php
 # Usage
+Download or clone CreateUaList.php
 
 php -f /path_to_file/CreateUaList.php
 
